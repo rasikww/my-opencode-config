@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@opencode-ai/plugin": "1.4.3",
+    "@ostico/bruno-mcp": "^1.2.4"
+  }
+}
