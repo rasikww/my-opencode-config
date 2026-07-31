@@ -8,11 +8,19 @@
     },
     "bruno-mcp": {
       "type": "local",
-      "command": ["node", "C:\\Users\\willo\\.config\\opencode\\bruno-mcp-launcher.mjs"],
+      "command": [
+        "node",
+        "C:\\Users\\willo\\.config\\opencode\\bruno-mcp-launcher.mjs",
+      ],
       "enabled": true,
       "environment": {
-        "BRUNO_SSRF_ALLOWLIST": "localhost,127.0.0.1"
+        "BRUNO_SSRF_ALLOWLIST": "localhost,127.0.0.1",
       },
+    },
+    "codebase-memory": {
+      "type": "local",
+      "command": ["C:\\Users\\willo\\.local\\bin\\codebase-memory-mcp.exe"],
+      "enabled": true,
     },
   },
 }
