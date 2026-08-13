@@ -1,5 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "instructions": ["~/.config/opencode/skills/clear-writing/SKILL.md"],
   "provider": {
     "opencode": {
       "models": {
