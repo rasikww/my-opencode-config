@@ -13,6 +13,7 @@
       },
     },
   },
+  "lsp": true,
   "mcp": {
     "linear": {
       "type": "remote",
