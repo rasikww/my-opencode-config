@@ -35,5 +35,10 @@
       "command": ["C:\\Users\\willo\\.local\\bin\\codebase-memory-mcp.exe"],
       "enabled": true,
     },
+    "omnisql": {
+      "type": "local",
+      "command": ["C:\\Users\\willo\\AppData\\Roaming\\npm\\omnisql-mcp"],
+      "enabled": true,
+    },
   },
 }
