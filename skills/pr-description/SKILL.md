@@ -33,7 +33,7 @@ If a key is found:
 
 1. Search Linear with `linear_list_issues` using the key as query.
 2. Get the issue URL.
-3. Use `[INT-123](url)` at the top of the PR description.
+3. Use `[TICKET](url)` at the top of the PR description.
 4. Use `[INT-123]` in the PR title.
 
 If no key is found:
@@ -84,7 +84,7 @@ Write the description in clear-writing **flavored** mode. Apply these rules:
 Structure:
 
 ```markdown
-[Int-282](linear-url)
+[TICKET](linear-url)
 
 ## Summary
 
