@@ -1,0 +1,38 @@
+{
+  "$schema": "https://opencode.ai/v2/cli.json",
+  "theme": {
+    "name": "catppuccin-macchiato"
+  },
+  "animations": true,
+  "cursor": {
+    "style": "block",
+    "blinking": true
+  },
+  "mouse": true,
+  "scroll": {
+    "speed": 3,
+    "acceleration": false
+  },
+  "session": {
+    "sidebar": "hide",
+    "scrollbar": true,
+    "thinking": "show",
+    "permissions": "prompt"
+  },
+  "diffs": {
+    "wrap": "word",
+    "view": "auto"
+  },
+  "attention": {
+    "notifications": true,
+    "sound": true,
+    "volume": 0.4,
+    "sound_pack": "opencode.default"
+  },
+  "leader": {
+    "timeout": 2000
+  },
+  "debug": {
+    "devtools": true
+  }
+}

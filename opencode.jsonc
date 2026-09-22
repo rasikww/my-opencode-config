@@ -1,7 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "instructions": ["~/.config/opencode/skills/clear-writing/SKILL.md"],
-  "provider": {
+  "providers": {
     "opencode": {
       "models": {
         "deepseek-v4-flash-free": {
@@ -14,31 +13,29 @@
     },
   },
   "mcp": {
-    "linear": {
-      "type": "remote",
-      "url": "https://mcp.linear.app/mcp",
-      "enabled": true,
-    },
-    "bruno-mcp": {
-      "type": "local",
-      "command": [
-        "node",
-        "C:\\Users\\willo\\.config\\opencode\\bruno-mcp-launcher.mjs",
-      ],
-      "enabled": true,
-      "environment": {
-        "BRUNO_SSRF_ALLOWLIST": "localhost,127.0.0.1",
+    "servers": {
+      "linear": {
+        "type": "remote",
+        "url": "https://mcp.linear.app/mcp",
       },
-    },
-    "codebase-memory": {
-      "type": "local",
-      "command": ["C:\\Users\\willo\\.local\\bin\\codebase-memory-mcp.exe"],
-      "enabled": true,
-    },
-    "omnisql": {
-      "type": "local",
-      "command": ["C:\\Users\\willo\\AppData\\Roaming\\npm\\omnisql-mcp"],
-      "enabled": true,
+      "bruno-mcp": {
+        "type": "local",
+        "command": [
+          "node",
+          "C:\\Users\\willo\\.config\\opencode\\bruno-mcp-launcher.mjs",
+        ],
+        "environment": {
+          "BRUNO_SSRF_ALLOWLIST": "localhost,127.0.0.1",
+        },
+      },
+      "codebase-memory": {
+        "type": "local",
+        "command": ["C:\\Users\\willo\\.local\\bin\\codebase-memory-mcp.exe"],
+      },
+      "omnisql": {
+        "type": "local",
+        "command": ["C:\\Users\\willo\\AppData\\Roaming\\npm\\omnisql-mcp"],
+      },
     },
   },
 }
