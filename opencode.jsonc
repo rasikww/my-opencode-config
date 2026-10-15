@@ -13,6 +13,9 @@
     },
   },
   "mcp": {
+    "timeout": {
+      "startup": 90000,
+    },
     "servers": {
       "linear": {
         "type": "remote",
