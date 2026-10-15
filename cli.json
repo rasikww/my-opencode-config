@@ -1,7 +1,8 @@
 {
   "$schema": "https://opencode.ai/v2/cli.json",
   "theme": {
-    "name": "catppuccin-macchiato"
+    "name": "catppuccin-macchiato",
+    "mode": "system"
   },
   "animations": true,
   "cursor": {
@@ -32,7 +33,15 @@
   "leader": {
     "timeout": 2000
   },
+  "keybinds": {
+    "agent.cycle": "tab",
+    "agent.cycle.reverse": "shift+tab"
+  },
   "debug": {
-    "devtools": true
+    "devtools": true,
+    "turn_tokens": false
+  },
+  "prompt": {
+    "image_preview": true
   }
 }
