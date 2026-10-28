@@ -27,7 +27,7 @@
   "attention": {
     "notifications": true,
     "sound": true,
-    "volume": 0.6,
+    "volume": 1,
     "sound_pack": "opencode.default"
   },
   "leader": {
@@ -39,9 +39,14 @@
   },
   "debug": {
     "devtools": true,
-    "turn_tokens": false
+    "turn_tokens": true,
+    "timing": true
   },
   "prompt": {
     "image_preview": true
+  },
+  "experimental": {
+    "new-designs": false,
+    "client-mcp": false
   }
 }
