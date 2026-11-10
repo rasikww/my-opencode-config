@@ -58,7 +58,8 @@ Skip this step for frontend-only PRs.
 The title must:
 
 - Start with the issue key if found: `[INT-123]` or `[NO TICKET]`
-- Follow with a quoted summary of the main change: `meaningful summary`
+- Follow with a plain summary of the main change: `meaningful summary`
+- Do not wrap the summary in quotation marks
 - Use imperative mood: "Add", "Fix", "Update", "Remove"
 - Stay under 72 characters total
 - Describe the outcome, not the mechanism
@@ -162,7 +163,7 @@ Format the output:
 
 ```
 **PR Title:**
-[INT-282] "Add document sharing via time-limited links"
+[INT-282] Add document sharing via time-limited links
 
 **PR Description:**
 <Int-282>(url)
@@ -209,6 +210,7 @@ When creating missing requests, use the folder that matches the domain. Match th
 ## Guards
 
 - Never guess the Linear issue key. If the branch name does not contain one, use ``.
+- Never wrap the PR title summary in quotation marks.
 - Never create a PR without showing the title and description to the user first.
 - Never add empty sections to the description.
 - Never include changed file names or diff stats in the description.
