@@ -39,6 +39,10 @@
         "type": "local",
         "command": ["C:\\Users\\willo\\AppData\\Roaming\\npm\\omnisql-mcp"],
       },
+      "microsoft-todo": {
+        "type": "local",
+        "command": ["D:\\Apps\\Node\\npx.cmd", "-y", "@mag-cie/mcp-microsoft-todo@latest"],
+      },
     },
   },
 }
